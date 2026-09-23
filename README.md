@@ -234,7 +234,7 @@ As descrições das tabelas Gold, dos campos Gold, dos principais campos derivad
 
 A linhagem registrada pelo Databricks também permite visualizar a relação entre a tabela Silver, o notebook de modelagem, a tabela fato Gold e o notebook de análise.
 
-![Lineage da tabela fato](evidencias/19_lineage_gold_fato_voo.png)
+![Lineage da tabela fato](evidencias/17_lineage_gold_fato_voo.png)
 
 ---
 
@@ -392,6 +392,8 @@ Foi criado o campo `flag_atraso_extremo` para permitir a identificação desses 
 ## 6. Análise de Dados
 
 Os resultados completos estão disponíveis na pasta `resultados/` em arquivos CSV exportados a partir do Databricks.
+
+As evidências visuais da análise foram mantidas de forma seletiva para evitar redundância. Os rankings completos, inclusive os resultados de atraso das Perguntas 1 e 2, permanecem disponíveis nos respectivos arquivos CSV.
 
 ### 6.1 Pergunta 1 — Aeroportos
 
@@ -605,7 +607,7 @@ Considero que o projeto cumpriu o objetivo proposto para a Sprint ao demonstrar,
 │   └── pergunta_5_evolucao_mensal.csv
 └── evidencias/
     ├── 01_volume_raw_files.png
-    ├── 02_tabelas_schema.png
+    ├── 02_notebooks_workspace.png
     ├── 03_catalogo_gold_fato_voo.png
     ├── 04_catalogo_gold_dim_aeroporto.png
     ├── 05_catalogo_resumo_tabelas.png
@@ -613,7 +615,14 @@ Considero que o projeto cumpriu o objetivo proposto para a Sprint ao demonstrar,
     ├── 07_qualidade_duplicatas.png
     ├── 08_contagens_bronze_silver.png
     ├── 09_contagens_gold.png
-    └── 19_lineage_gold_fato_voo.png
+    ├── 10_pergunta_1_cancelamentos_aeroportos.png
+    ├── 11_pergunta_2_cancelamentos_companhias.png
+    ├── 12_pergunta_3_dia_semana.png
+    ├── 13_pergunta_3_periodo_dia.png
+    ├── 14_pergunta_4_rotas_atraso.png
+    ├── 15_pergunta_4_rotas_cancelamento.png
+    ├── 16_pergunta_5_evolucao_mensal.png
+    └── 17_lineage_gold_fato_voo.png
 ```
 
 ---
