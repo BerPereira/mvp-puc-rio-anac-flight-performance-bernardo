@@ -142,7 +142,6 @@ workspace.mvp_sprint_3_anac
 - `gold_dim_rota`
 - `gold_fato_voo`
 
-![Tabelas do schema](evidencias/02_tabelas_schema.png)
 
 ### 3.3 Modelo dimensional Gold
 
@@ -241,6 +240,8 @@ A linhagem registrada pelo Databricks também permite visualizar a relação ent
 ## 4. Pipeline de Dados
 
 O pipeline foi dividido em cinco notebooks.
+
+![Notebooks do projeto no Databricks](evidencias/02_notebooks_workspace.png)
 
 ### `01_ingestao_bronze.ipynb`
 
