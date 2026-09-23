@@ -1,0 +1,8 @@
+dia_semana_num,dia_semana,voos_analisados,voos_atraso_30,media_atraso_30_min,mediana_atraso_30_min,taxa_atraso_30_pct
+1,Sunday,75665,6355,109.78,55,8.4
+2,Monday,80499,6619,91.49,53,8.22
+3,Tuesday,79927,6452,90.92,53,8.07
+4,Wednesday,80696,7452,90.27,53,9.23
+5,Thursday,83167,8526,93.17,55,10.25
+6,Friday,82988,8283,81.39,52,9.98
+7,Saturday,73375,5946,101.99,57,8.1

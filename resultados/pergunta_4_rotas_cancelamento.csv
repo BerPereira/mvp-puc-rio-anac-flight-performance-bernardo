@@ -1,0 +1,11 @@
+rota_id,codigo_aeroporto_origem,codigo_aeroporto_destino,total_voos,voos_com_atraso_calculavel,voos_atraso_30,voos_cancelados,taxa_atraso_30_pct,taxa_cancelamento_pct
+SAEZ->LEMD,SAEZ,LEMD,640,0,0,640,null,100
+SPJC->LEMD,SPJC,LEMD,252,0,0,252,null,100
+LEMD->SPJC,LEMD,SPJC,247,0,0,247,null,100
+SAEZ->MDPC,SAEZ,MDPC,514,0,0,514,null,100
+LEMD->SAEZ,LEMD,SAEZ,649,0,0,649,null,100
+MDPC->SAEZ,MDPC,SAEZ,492,0,0,492,null,100
+HAAB->SBGR,HAAB,SBGR,210,69,16,131,23.19,62.38
+DNMM->SBGR,DNMM,SBGR,684,241,67,386,27.8,56.43
+SBGR->OTHH,SBGR,OTHH,624,421,57,194,13.54,31.09
+SBGR->SEQM,SBGR,SEQM,265,140,30,80,21.43,30.19
